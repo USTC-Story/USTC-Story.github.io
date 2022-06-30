@@ -1,9 +1,5 @@
 # Project information
 site_name: "USTC-Story"
-#site_author: ""
-site_url: https://ustc-story.github.io/
-#site_dir: public
-
 
 # Repository
 repo_name: USTC-Story/USTC-Story.github.io
@@ -14,7 +10,7 @@ copyright: 'Copyright &copy; 2022 科大普通人类实录. <a href="https://cre
 
 # Configuration
 theme:
-  name: materia
+  name: mkdocs
   language: zh
   palette:
     - scheme: default
