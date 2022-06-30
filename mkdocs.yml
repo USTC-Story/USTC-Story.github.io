@@ -1,6 +1,5 @@
 # Project information
 site_name: "USTC-Story"
-site_description: "目前的一些采访稿"
 #site_author: ""
 #site_url: https://USTC-Story.git.ustc.edu.cn.io
 #site_dir: public
@@ -15,7 +14,7 @@ copyright: 'Copyright &copy; 2022 科大普通人类实录. <a href="https://cre
 
 # Configuration
 theme:
-  name: material
+  name: mkdocs
   language: zh
   palette:
     - scheme: default
