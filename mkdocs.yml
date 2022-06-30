@@ -1,0 +1,55 @@
+# Project information
+site_name: "普通人类实录 @ USTC"
+site_description: "目前的一些采访稿"
+#site_author: ""
+site_url: https://USTC-Story.git.ustc.edu.cn.io
+site_dir: public
+
+
+# Repository
+#repo_name: ""
+#repo_url: ""
+
+# Copyright
+copyright: 'Copyright &copy; 2022 科大普通人类实录. <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>.'
+
+# Configuration
+theme:
+  name: material
+  language: zh
+  palette:
+    - scheme: default
+      media: "(prefers-color-scheme: light)"
+      primary: teal
+      accent: teal
+      toggle:
+        icon: material/lightbulb-off-outline
+        name: Switch to dark mode
+    - scheme: slate
+      media: "(prefers-color-scheme: dark)"
+      primary: green
+      accent: green
+      toggle:
+        icon: material/lightbulb-on-outline
+        name: Switch to light mode
+
+  features:
+    - content.code.annotate
+    - navigation.indexes
+    - navigation.sections
+    - navigation.top
+
+
+
+
+nav:
+  - 简介: index.md
+  - 文章:
+    - 平凡的生活和不平凡的挣扎: "passages/1.md"
+    - 不破不立: "passages/2.md"
+    - 逆流而上，开辟职业新天地: "passages/3.md"
+    - 再出发: "passages/4.md"
+    - 行者小凯: "passages/5.md"
+    - 逃向所爱: "passages/6.md"
+  - 总结:
+    - So...: "passages/0.md"
