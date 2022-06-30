@@ -1,20 +1,30 @@
-name: run the page
+name: build and deploy mkdocs to github pages
 on:
   push:
     branches:
-      - main
+      - master
 jobs:
-  build:
+  deploy:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: actions/setup-python@v2
         with:
-          python-version: '3.10'
-      - run: pip install -r requirements.txt
-      - uses: actions/setup-node@v2
+          submodules: "recursive" 
+          fetch-depth: 0       # Fetch all history for .GitInfo and .Lastmod
+      - name: Setup Python
+        uses: actions/setup-python@v1
         with:
-          node-version: '14'
-      #- run: npm install
-      #- run: npm test
-      - run: mkdocs gh-deploy --force
+          python-version: '3.7'
+          architecture: 'x64'
+      - name: Install dependencies
+        run: |
+          python3 -m pip install --upgrade pip     # install pip
+          python3 -m pip install mkdocs            # install mkdocs 
+          python3 -m pip install mkdocs-material   # install material theme
+      - name: Build site
+        run: mkdocs build
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: $
+          publish_dir: ./sites
