@@ -10,7 +10,7 @@ copyright: 'Copyright &copy; 2022 科大普通人类实录. <a href="https://cre
 
 # Configuration
 theme:
-  name: mkdocs
+  name: material
   language: zh
   palette:
     - scheme: default
