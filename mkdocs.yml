@@ -1,14 +1,14 @@
 # Project information
-site_name: "普通人类实录 @ USTC"
+site_name: "USTC-Story"
 site_description: "目前的一些采访稿"
 #site_author: ""
-site_url: https://USTC-Story.git.ustc.edu.cn.io
-site_dir: public
+#site_url: https://USTC-Story.git.ustc.edu.cn.io
+#site_dir: public
 
 
 # Repository
-#repo_name: ""
-#repo_url: ""
+repo_name: USTC-Story/USTC-Story.github.io
+repo_url: https://github.com/USTC-Story/USTC-Story.github.io
 
 # Copyright
 copyright: 'Copyright &copy; 2022 科大普通人类实录. <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>.'
