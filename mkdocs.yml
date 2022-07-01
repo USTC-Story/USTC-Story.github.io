@@ -6,7 +6,7 @@ repo_name: USTC-Story/USTC-Story.github.io
 repo_url: https://github.com/USTC-Story/USTC-Story.github.io
 
 # Copyright
-copyright: 'Copyright &copy; 2022 科大普通人类实录. <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>.'
+copyright: 'Copyright &copy; 2022 USTC-Story. <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>.'
 
 # Configuration
 theme:
