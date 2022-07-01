@@ -34,8 +34,14 @@ theme:
     - navigation.sections
     - navigation.top
 
-custom_dir: overrides
+  custom_dir: overrides
 
+plugins:
+  - search:
+      lang: ja
+  - git-revision-date-localized
+  - minify:
+      minify_html: true
 
 nav:
   - 简介: index.md
