@@ -34,7 +34,7 @@ theme:
     - navigation.sections
     - navigation.top
 
-
+custom_dir: overrides
 
 
 nav:
